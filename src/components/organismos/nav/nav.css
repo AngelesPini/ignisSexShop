@@ -24,3 +24,13 @@
   font-weight: 500;
   font-size: 22px;
 }
+@media screen and (max-width:1100px){
+  .navList a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 500;
+  font-size:16px;
+}
+}
