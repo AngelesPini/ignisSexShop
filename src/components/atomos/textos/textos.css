@@ -76,9 +76,16 @@
   font-size: 12vw;
 }
 .tituloHeaderNegro {
-
   font-size: 14vw;
 
+}
+  .tituloFormNegro {
+
+  font-size: 10vw;
+}
+
+.tituloFormBlanco {
+  font-size: 12vw;
 }
 .subtituloHeader {
 
