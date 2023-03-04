@@ -1,0 +1,39 @@
+.btnWsp {
+  width: 100px;
+  height: 100px;
+  background-image: url(../../../assets/buttonWsp.svg);
+  background-size: contain;
+  position: fixed;
+  left: 90%;
+  top: 50%;
+}
+.btnWsp {
+  animation-name: moving;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-duration: 6s;
+  animation-delay: 0.3s;
+}
+@keyframes moving {
+  0% {
+    transform: rotate3d(12, 2, 4, 192deg);
+  }
+  25% {
+    transform: rotate3d(1, 5, -4, 60deg);
+  }
+  50% {
+    transform: rotate3d(1, 10, 1, 12deg);
+  }
+  65% {
+    transform: rotate3d(6, 15, -3, 60deg);
+  }
+  75% {
+    transform: rotate3d(7, -5, 3, 60deg);
+  }
+  85% {
+    transform: rotate3d(1, 2, 1, 190deg);
+  }
+  100% {
+    transform: rotate3d(12, 2, 4, 195deg);
+  }
+}

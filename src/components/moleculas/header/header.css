@@ -1,0 +1,10 @@
+.headerIndex {
+  background-image: url(../../../assets/headerBg.png);
+  background-size: cover;
+}
+.tituloHeader {
+  padding: 152px 65px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}

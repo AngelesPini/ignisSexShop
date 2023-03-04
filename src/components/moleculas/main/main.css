@@ -1,0 +1,20 @@
+.main {
+  background-image: url(../../../assets/mainbg.png);
+  text-align: center;
+  height: 77vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tituloSectionNegro {
+  padding: 50px 0 0 0;
+}
+@media screen and (max-width: 1100px) {
+  .main {
+    background-image: url(../../../assets/bgMainMobile.png);
+    background-size: cover;
+    height: 32.66vh;
+  }
+  .tituloSectionNegro {
+    padding: 10px 0 0 0;
+  }
+}

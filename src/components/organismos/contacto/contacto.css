@@ -1,0 +1,29 @@
+.contacto {
+  background-image: url(../../../assets/contactoBg.png);
+  display: flex;
+  justify-content: space-around;
+  height: 110vh;
+  background-repeat: no-repeat;
+  align-items: center;
+  background-size: cover;
+  padding: 5vw 3vw;
+}
+.textoContacto {
+  display: flex;
+  flex-direction: column;
+}
+.formulario {
+  width: 100%;
+  text-align: -webkit-center;
+}
+@media screen and (max-width: 1100px) {
+  .contacto {
+    background-image: url(../../../assets/bgcontactoMobile.png);
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 3vh 2vw;
+    justify-content: center;
+    gap: 15px;
+    height: fit-content;
+  }
+}

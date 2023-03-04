@@ -1,0 +1,23 @@
+.footer {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+.brandFooter img {
+  width: 200px;
+}
+.instagramFooter,
+.locationFooter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.instagramFooter img,
+.locationFooter img {
+  width: 50px;
+}
+.instagramFooter a {
+  text-decoration: none;
+}

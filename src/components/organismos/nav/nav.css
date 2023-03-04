@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.nav {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+}
+.navBrand img {
+  width: 80px;
+}
+.navList ul {
+  display: flex;
+  gap: 15px;
+}
+.navList ul li {
+  list-style-type: none;
+}
+.navList a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+}

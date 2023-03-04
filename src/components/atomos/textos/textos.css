@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.tituloHeaderBlanco {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 8vw;
+
+  color: #fff;
+}
+.tituloHeaderNegro {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 10vw;
+
+  color: #000000;
+}
+.subtituloHeader {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 3vw;
+
+  color: #000000;
+}
+.tituloSectionNegro {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 7vw;
+
+  color: #000000;
+}
+.tituloFormNegro {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 6.2vw;
+
+  color: #000000;
+}
+
+.tituloFormBlanco {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 7.32vw;
+
+  color: #ffffff;
+}
+.subtituloForm {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.19vw;
+
+  color: #ffffff;
+}
+
+.cuerpoFooter {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2vw;
+
+  color: #ff5f1f;
+}
+
+@media screen and (max-width: 1100px) {
+  .subtituloForm {
+    font-size: 4.19vw;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
