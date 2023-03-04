@@ -9,6 +9,10 @@
   gap: 0;
 }
 @media screen and (max-width:1100px){
+  .headerIndex {
+  background-image: url(../../../assets/bgMobileHeader.png);
+  background-size: cover;
+}
   .tituloHeader{
     padding:50px 16px;
   }
