@@ -37,3 +37,13 @@
     transform: rotate3d(12, 2, 4, 195deg);
   }
 }
+@media screen and (max-width:1100px){
+  .btnWsp {
+  width: 80px;
+  height: 80px;
+  background-image: url(../../../assets/buttonWsp.svg);
+  background-size: contain;
+  position: fixed;
+  left: 80%;
+  top: 40%;
+  }}
